@@ -1,0 +1,33 @@
+.edit-img {
+	max-height: 65vh;
+	width: auto;
+}
+
+.img-container {
+	padding: 0;
+	margin: 0;
+	width: auto;
+	border: 5px dashed #ddd;
+	border-radius: 0px;
+}
+
+.hint {
+	opacity: .5;
+}
+
+.tools-container {
+	margin-top: 1em;
+}
+
+#canvas {
+	position: fixed;
+	z-index: 9999;
+}
+
+input[type=number] {
+	width: 65px;
+}
+
+.btn {
+	width: auto;
+}
