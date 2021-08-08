@@ -302,7 +302,7 @@ document.getElementById('saveBtn').addEventListener('click', function() {
 				_canvas.width, _canvas.height,
 				0, 0, _canvas.width, _canvas.height);
 
-			zip.file(`x${x}y${y}.jpg`, _canvas.toDataURL('image/jpg').split(',')[1], {base64: true});
+			zip.file(`${++idx}.jpg`, _canvas.toDataURL('image/jpg').split(',')[1], {base64: true});
 		}
 	}
 
